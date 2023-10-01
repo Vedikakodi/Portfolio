@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Background colors for different sections */
+.background-blue {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.background-green {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.background-yellow {
+    background-color: #f1c40f;
+    color: #333;
+}
+
+.background-purple {
+    background-color: #9b59b6;
+    color: #fff;
+}
+
+/* Style portfolio projects */
+.project {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the footer
